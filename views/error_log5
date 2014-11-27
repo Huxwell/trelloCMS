@@ -1,0 +1,120 @@
+[26-Jun-2014 10:02:21] PHP Warning:  require_once(./init.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/drapej/public_html/odra/trello/views/thumbnails.php on line 2
+[26-Jun-2014 10:02:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required './init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/usr/local/lib/php/PEAR:/usr/local/php52/lib') in /home/drapej/public_html/odra/trello/views/thumbnails.php on line 2
+[26-Jun-2014 10:15:07] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:15:12] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:15:18] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:15:31] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:15:31] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:15:31] PHP Warning:  assert() [<a href='function.assert'>function.assert</a>]: Assertion failed in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:15:31] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:15:31] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:15:31] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:15:31] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:15:31] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:15:31] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:15:43] PHP Notice:  Undefined index:  53abce30e8207a3393e073bp in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:15:43] PHP Warning:  assert() [<a href='function.assert'>function.assert</a>]: Assertion failed in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:15:43] PHP Notice:  Undefined index:  53abce30e8207a3393e073bp in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:15:43] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:15:43] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:15:43] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:15:43] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:17:35] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:17:39] PHP Notice:  Undefined index:  53abce30e8207a3393e073b9 in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:17:50] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:18:39] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:18:39] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:19:01] PHP Notice:  Undefined index:  53abce30e8207a3393e073b6 in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:19:01] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:19:01] PHP Notice:  Undefined index:  53abce30e8207a3393e073b6 in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:19:01] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:19:01] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:19:01] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:19:01] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:19:06] PHP Notice:  Undefined index:  53abce30e8207a3393e073b6 in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:19:06] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:19:06] PHP Notice:  Undefined index:  53abce30e8207a3393e073b6 in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:19:06] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:19:06] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:19:06] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:19:06] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:19:12] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:19:12] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:19:12] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:19:12] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:19:12] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:19:12] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:19:12] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:21:11] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:21:11] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:21:11] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:21:11] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:21:11] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:21:11] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:21:11] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:30:08] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:08] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:08] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:30:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:30:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:30:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:30:15] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:15] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:15] PHP Notice:  Undefined index:  53abce30e8207hjk in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:15] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:30:15] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:30:15] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:30:15] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:30:30] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:30] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:30] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:30] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:30] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:30] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:30:30] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:30:30] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:30:30] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:30:44] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:44] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:44] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:44] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:44] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:44] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:30:44] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:30:44] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:30:44] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:30:55] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:30:55] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:55] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:30:55] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:30:55] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:30:55] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:30:55] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:31:08] PHP Warning:  Wrong parameter count for assert() in /home/drapej/public_html/odra/trello/views/entity.php on line 3
+[26-Jun-2014 10:31:08] PHP Notice:  Undefined index:  id in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:31:08] PHP Notice:  Undefined index:   in /home/drapej/public_html/odra/trello/views/entity.php on line 4
+[26-Jun-2014 10:31:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 5
+[26-Jun-2014 10:31:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:31:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 7
+[26-Jun-2014 10:31:08] PHP Notice:  Trying to get property of non-object in /home/drapej/public_html/odra/trello/views/entity.php on line 8
+[26-Jun-2014 10:38:39] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:39:29] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:39:55] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:41:01] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 10:54:45] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:05:16] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:05:31] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:05:37] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:06:10] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:06:11] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:06:12] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:06:18] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:06:23] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:15:47] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:15:55] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:15:58] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:16:03] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
+[26-Jun-2014 11:18:36] PHP Notice:  Undefined index:  53aae478789b024dcf961bfc in /home/drapej/public_html/odra/trello/models/EntityList.php on line 10
+[26-Jun-2014 11:18:36] PHP Fatal error:  Call to a member function addCard() on a non-object in /home/drapej/public_html/odra/trello/models/EntityList.php on line 10
+[26-Jun-2014 11:26:27] PHP Notice:  Undefined property: Entity::$background in /home/drapej/public_html/odra/trello/views/entity.php on line 6
