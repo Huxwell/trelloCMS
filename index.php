@@ -1,3 +1,7 @@
+<?php
+include_once "./trelloCMS/Controller.php";
+$trello = new Controller("NThkZ2R1");
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Starter Template for Bootstrap</title>
+        <title><?php echo $trello->board->name; ?></title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/starter-template.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,7 +29,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Project name</a>
+                    <a class="navbar-brand" href="#"><?php echo $trello->board->name; ?></a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">

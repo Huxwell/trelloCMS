@@ -1,13 +1,17 @@
 <?php
 
+require_once "TrelloList.php";
+
 class TrelloBoard {
 
+    public $name;
     public $entities = array();
 
     public function __construct($json) {
         $json_object = json_decode($json);
+        $this->name = $json_object->name;
         foreach ($json_object->lists as $list) {
-            $entity = new Entity($list->id, $list->name, $json_object->cards);
+            $entity = new TrelloList($list->id, $list->name, $json_object->cards);
 
             if ($prev) {
                 $prev->next_id = $entity->id;
