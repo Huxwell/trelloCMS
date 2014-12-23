@@ -5,29 +5,29 @@ require_once "TrelloList.php";
 class TrelloBoard {
 
     public $name;
-    public $entities = array();
+    public $lists = array();
 
     public function __construct($json) {
         $json_object = json_decode($json);
         $this->name = $json_object->name;
         foreach ($json_object->lists as $list) {
-            $entity = new TrelloList($list->id, $list->name, $json_object->cards);
+            $list = new TrelloList($list->id, $list->name, $json_object->cards);
 
             if ($prev) {
-                $prev->next_id = $entity->id;
-                $entity->prev_id = $prev->id;
+                $prev->next_id = $list->id;
+                $list->prev_id = $prev->id;
             }
 
-            $this->entities[$list->id] = $entity;
+            $this->lists[$list->id] = $list;
 
-            $prev = $entity;
+            $prev = $list;
         }
         foreach ($json_object->cards as $card) {
-            if (array_key_exists($card->idList, $this->entities)) //assert would be better?
-                $this->entities[$card->idList]->addCard($card);
+            if (array_key_exists($card->idList, $this->lists)) //assert would be better?
+                $this->lists[$card->idList]->addCard($card);
         }
-        foreach ($this->entities as $entity) {
-            $entity->process();
+        foreach ($this->lists as $list) {
+            $list->process();
         }
     }
 

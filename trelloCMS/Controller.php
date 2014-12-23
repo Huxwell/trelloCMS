@@ -12,5 +12,7 @@ class Controller {
         require_once("data/trelloJSON.php");
         $this->board = new TrelloBoard($json);
     }
-    
+    public function menu() {
+        require_once("views/menu.php");
+    }
 }
