@@ -20,7 +20,7 @@ $trello = new Controller("NThkZ2R1");
         <![endif]-->
     </head>
     <body>
-        <?php $trello->menu(); ?>
+        <?php $trello->renderMenu(); ?>
         <div class="container">
             <div class="starter-template">
                 <h1>Bootstrap starter template</h1>

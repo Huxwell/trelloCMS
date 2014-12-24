@@ -13,7 +13,9 @@
                     <ul class="nav navbar-nav">
                         <?php
                             foreach($this->board->lists as $list) {
-                                echo "<li><a href=\"index.php?page=".$list->name."\">".$list->name."</a></li>";
+                                if($list->id == $this->currId) echo "<li class=\"active\">";
+                                else echo "<li>";
+                                echo "<a href=\"index.php?page=".$list->id."\">".$list->name."</a></li>";
                             }
                         ?>
                         <!--<li class="active"><a href="#">Home</a></li>
