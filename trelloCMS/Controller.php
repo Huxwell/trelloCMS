@@ -19,6 +19,6 @@ class Controller {
         require_once("views/menu.php");
     }
     public function renderList() {
-
+        require_once("views/list.php");
     }
 }

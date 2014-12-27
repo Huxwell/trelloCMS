@@ -1,7 +1,14 @@
 body {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 .starter-template {
-  padding: 40px 15px;
-  text-align: center;
+    padding: 40px 15px;
+    text-align: center;
+}
+article {
+    padding: 40px 15px;
+    text-align: center;
+}
+article p {
+    font-size: 15px;
 }

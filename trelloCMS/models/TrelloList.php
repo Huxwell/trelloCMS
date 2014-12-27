@@ -1,5 +1,7 @@
 <?php
 
+require_once "TrelloCard.php";
+
 class TrelloList {
 
     public $id, $name, $cards = array();
@@ -11,32 +13,7 @@ class TrelloList {
         $this->id = $id;
         $this->name = $name;
     }
-
-    function process() {
-        foreach ($this->cards as $card) {
-            if (property_exists($this, $card->name)) {
-                if ($card->name == "picture") {
-                    $this->picture = $card->attachments[0]->url;
-                    $this->pictures = $card->attachments;
-                } else if ($card->name == "thumbnail")
-                    $this->thumbnail = $card->attachments[0]->url;
-                else
-                    $this->{$card->name} = $card->desc;
-            }
-        }
-    }
-
     function addCard($card) {
-        $this->cards[$card->name] = $card;
+        $this->cards[$card->id] = new TrelloCard($card);
     }
-
-    function processCards() {
-        foreach ($this->cards as $card) {
-            if (property_exists($this, $card->name)) {
-                $this->card->name = $card->desc;
-            }
-        }
-        unset($this->cards);
-    }
-
 }

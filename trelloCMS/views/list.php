@@ -1,8 +1,10 @@
 <?php
+//var_dump($this->board->lists[$this->currId]->cards);
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+foreach($this->board->lists[$this->currId]->cards as $card) {
+    echo "<article>";
+    echo "<h2>".$card->name."<h2>";
+    echo "<p>".$card->desc."</p>";
+    echo "</article>";
+}
+?>

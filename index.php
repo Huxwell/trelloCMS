@@ -22,10 +22,11 @@ $trello = new Controller("NThkZ2R1");
     <body>
         <?php $trello->renderMenu(); ?>
         <div class="container">
-            <div class="starter-template">
+            <!--<div class="starter-template">
                 <h1>Bootstrap starter template</h1>
-                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>-->
             </div>
+            <?php $trello->renderList(); ?>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
