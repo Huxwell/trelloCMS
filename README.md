@@ -1,15 +1,28 @@
-TrelloCMS
-=========
+# TrelloCMS
 
-::How to use::
+## What is this?
 
-After downloading the code, unzip it and upload to your website root directory.
+Content management system using Trello as a backend. Create websites quickly
+and effortlessly!
 
-Then sign up at trello and copy our sample board (Show sidebar->Menu->Copy Board->Create). 
+## How to use?
 
-Now just raplace $board_id = "NThkZ2R1"; at /trelloCMS/data/trelloJSON.php into your board id, which you just copy from the url. 
+1. Download the code and unzip it to your website root directory.
+2. Sing up over at [Trello](http://trello.com) and copy our sample board (Show
+   sidebar->Menu->Copy Board->Create)
+3. In `trelloCMS/data/trelloJSON.php` replace $board_id with your actual board
+   id.
 
-Everything should be working right now, so just play with adding trello lists, cards, changing their order, adding attachments. 
-If something goes wrong, try changeing your board privacy to "Public". Nobody who is not added to board won't be able to edit your content anyway.
+Now everything should be working and you should be able to toy with it by
+adding lists or cards or editing stuff. If something does not work, try
+changing your board visibility to Public. Don't worry about your data, your
+boards can be edited only by people who have been explicitly added to your
+board.
 
-::See www.trellocms.net for reference ::
+## Bug reports?
+
+If you found a bug, please open an issue. Pull requests are welcome as well!
+
+## More?
+
+See our [website](http://trellocms.net) for a demo and more!
