@@ -1,0 +1,12 @@
+{
+    "elements": {
+        "lists-menu": {},
+        "trello-list": {},
+        "trello-menu": {}
+    },
+    "attributes": {
+        "trello-board-name": {
+            "context": "title"
+        }
+    }
+}

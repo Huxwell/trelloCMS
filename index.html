@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="trelloCMS" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title trello-board-name></title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/starter-template.css" rel="stylesheet">
+        <script type="text/javascript" src="js/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body ng-controller="TrelloController as trello">
+    <trello-menu></trello-menu>
+    <div class="container">
+        <trello-list></trello-list>
+    </div>
+</body>
+</html>
