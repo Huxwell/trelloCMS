@@ -17,7 +17,7 @@
     <body ng-controller="TrelloController as trello">
     <trello-menu></trello-menu>
     <div class="container">
-        <trello-list></trello-list>
+        <div ng-include="trello.currTemplate"></div>
     </div>
 </body>
 </html>
