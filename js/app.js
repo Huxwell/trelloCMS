@@ -12,7 +12,7 @@
             });
             $scope.currList = function(lists) {
                 console.log(lists);
-                trello.currListId = $location.path().replace("/", "");
+                if(!onepage)trello.currListId = $location.path().replace("/", "");
                 lists.some(function(el) {
                     if (trello.currListId === el.id) {
                         trello.currListName = el.name;
@@ -20,7 +20,7 @@
                         return true;
                     }
                 });
-                templateProposition =  'templates/' + trello.currListName + '.html';
+                templateProposition = 'templates/' + trello.currListName + '.html';
                 trello.currTemplate = pageExists(templateProposition) ? templateProposition : "templates/default.html";
             };
             function pageExists(url)

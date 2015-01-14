@@ -13,7 +13,7 @@
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li ng-if="!list.closed" ng-repeat="list in trello.board.lists" ng-class="{active: list.id === trello.currListId}">
-                            <a href="index.html#/{{list.id}}">{{list.name}}</a>
+                            <a href="#{{list.id}}">{{list.name}}</a>
                         </li>
                         <li>
                             <a href="downloadFromTrello.php" target="_blank">refresh</a>
